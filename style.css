@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #73a580;
+}
+.container{
+    margin: 5vh auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container1{
+    text-align: center;
+    /* color: White; */
+    padding: 2.5rem;
+    background-color: palegreen;
+}
+#heading{
+    padding-bottom: 5vh;
+}
+#taskinput{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 25vw;
+    height: 5vh;
+    padding-left: 2vh;
+}
+#btn{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    margin-left: -2vw;
+    border: none;
+    height: 5.6vh;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #73a580;
+}
+.container2{
+    border: 2px solid palegreen;
+    padding: 0%;
+}
+.to-do-list{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+.listText{
+    max-width: 30vw;
+    overflow-wrap: break-word;
+}
+li{
+    padding: 1vw;
+}
+.containerinlist{
+    display: flex;
+    justify-content: space-between;
+}
+.li-without-bg{
+    background-color: ghostwhite;
+}
+.li-bg{
+    color: white;
+    /* background-color: #9E8574; */
+    background-color:#73a580;
+}
+/* .buttons{
+     padding-top: 2vh; 
+} */
+.up{
+    /* margin-left: 25vw; */    
+    margin-right: 0.5vw;
+    border: none;
+    color: teal;
+    background-color: white;
+    rotate: 180deg;
+}
+.li-without-bg .up{
+    background-color: ghostwhite;
+}
+.li-bg .up{
+    background-color: #73a580;
+}
+.up:hover{
+    color: black;
+}
+.down{
+    margin-right: 0.5vw;
+    border: none;
+    color: teal;
+    background-color: white;
+}
+.down:hover{
+    color: black;
+}
+.li-without-bg .down{
+    background-color: ghostwhite;
+}
+.li-bg .down{
+    background-color: #73a580;
+}
+.remove{
+    border: none;
+    color: orangered;
+    background-color: white;
+}
+.remove:hover{
+    color: blue;
+}
+.li-without-bg .remove{
+    background-color: ghostwhite;
+}
+.li-bg .remove{
+    background-color: #73a580;
+}
